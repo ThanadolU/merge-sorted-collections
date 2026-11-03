@@ -1,0 +1,21 @@
+{
+  "name": "merge-sorted-collections",
+  "version": "1.0.0",
+  "description": "Merge one descending and two ascending integer arrays into one ascending array",
+  "private": true,
+  "main": "dist/merge.js",
+  "types": "dist/merge.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/main.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^4.1.12",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.12"
+  }
+}
